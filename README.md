@@ -115,7 +115,11 @@ const response = await fetch('https://api.apiverve.com/v1/barcodegenerator', {
   "status": "ok",
   "error": null,
   "data": {
-    "downloadUrl": "https://storage.apiverve.com/barcodes/abc123.png"
+    "imageName": "cc85680f-a1d0-4627-89ff-7d7e53663a2b.png",
+    "format": ".png",
+    "type": "CODE128",
+    "expires": 1766010012598,
+    "downloadURL": "https://storage.googleapis.com/apiverve/..."
   }
 }
 ```
