@@ -55,7 +55,7 @@ app.post('/api/generate', async (req, res) => {
         success: true,
         data: data,
         type: type,
-        imageUrl: result.data.downloadUrl || result.data.url
+        imageUrl: result.data.downloadURL
       });
     } else {
       res.status(400).json({ error: result.error || 'Generation failed' });
